@@ -1,0 +1,387 @@
+/* CSS Document */
+
+
+
+* {
+
+                padding: 0px;
+
+                margin: 0px;
+
+}
+
+body {
+
+                font-family: 'Work Sans', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+                font-family: 'Comic Sans MS', cursive,sans-serif;
+
+}
+
+a {
+
+                outline: none !important;
+
+}
+
+/*-----Header & Banner Starts-------*/
+
+.navbar-brand {
+
+                font-family: 'Oleo Script Swash Caps', cursive;
+
+                color: #ffffff;
+
+                font-size: 26px;
+
+}
+
+.navbar-brand:hover {
+
+                color: #EB233C;
+
+}
+
+.navbar-toggle {
+
+                background-color: #fff;
+
+}
+
+.navbar-toggle .icon-bar {
+
+                background-color: RGBA(0, 0, 0, 0.48);
+
+}
+
+.banner {
+
+                background-attachment: fixed;
+
+                background-color: #645862;
+
+                background-image: url(images/background.jpg);
+
+                background-position: top center;
+
+                background-repeat: no-repeat;
+
+                background-size: cover;
+
+                color: white;
+
+                cursor: default;
+
+                text-align: center;
+
+                width: 100%;
+
+                float: left;
+
+}
+
+.bg-overlay {
+
+                padding: 280px 0 220px;
+
+                background-color: RGBA(15, 5, 20, 0.84);
+
+}
+
+.banner-text h2 {
+
+                font-size: 50px;
+
+}
+
+.banner-text h2 span {
+
+                color: #EB233C;
+
+}
+
+.banner-text p {
+
+                font-size: 15px;
+
+}
+
+.banner-button {
+
+                border: rgba(204, 204, 204, 0.18) 1px solid;
+
+                padding: 12px 35px;
+
+                color: #fff;
+
+                text-decoration: none;
+
+                display: inline-block;
+
+                border-radius: 25px 25px 25px 25px;
+
+                font-size: 15px;
+
+                margin-top: 50px;
+
+}
+
+.banner-button:hover {
+
+                background-color: #ccc;
+
+                text-decoration: none;
+
+                color: #fff;
+
+}
+
+.mynav {
+
+                transition: all 0.8s ease-in;
+
+                background: rgb(68, 51, 68) none repeat scroll 0% 0%;
+
+}
+
+.mynav li a {
+
+                font-family: 'Work Sans', sans-serif;
+
+                font-size: 14px;
+
+                font-weight: 400;
+
+}
+
+.nav > li > .nav > li > a {
+
+                color: #E1DBDB;
+
+}
+
+.nav > li >  .nav > li > .nav > li >  .nav > li.active > a {
+
+                background-color: #665566;
+
+                color: #fff;
+
+                border-bottom: 2px solid #EB233C;
+
+}
+
+.navbar-nav > li > a {
+
+                padding-top: 15px;
+
+                padding-bottom: 13px;
+
+}
+
+/*-----Header & Banner Ends-------*/
+
+
+
+/*-----Features Starts-------*/
+
+.features {
+
+                padding: 50px 50px;
+
+                float: left;
+
+                width: 100%;
+
+                text-align: center;
+
+}
+
+
+
+
+
+.features-text h4 {
+
+                color: rgb(68, 51, 68);
+
+}
+
+.content a:hover{
+
+  color: red;
+
+}
+
+.lists{
+
+                padding: 20px 50px;
+
+                width: 100%;
+
+                background-color: rgba(204, 204, 204, 0.15);
+
+
+
+
+
+}
+
+a{
+
+                color: black;
+
+                text-decoration: none;
+
+}
+
+
+
+
+
+/*-----Features Ends-------*/
+
+
+
+
+
+/*-----Portfolio or Work Starts-------*/
+
+
+
+
+
+/*-----Call to action Starts-------*/
+
+
+
+/*-----About Starts-------*/
+
+.about {
+
+                padding: 50px 0px;
+
+                width: 100%;
+
+                float: left;
+
+                text-align: center;
+
+}
+
+.about h3 {
+
+                margin-top: 0px;
+
+                margin-bottom: 50px;
+
+                border-bottom: 2px solid #EB233C;
+
+                display: inline-block;
+
+                line-height: 35px;
+
+}
+
+.about-text p {
+
+                font-size: 15px;
+
+                font-weight: 300;
+
+}
+
+.counter-item h5 {
+
+                margin: 0px !important;
+
+                font-family: 'Work Sans', sans-serif;
+
+}
+
+.timer {
+
+                color: #EB233C;
+
+                font-size: 50px;
+
+                font-weight: 200;
+
+}
+
+.block {
+
+                padding-left: 0px !important;
+
+}
+
+/*-----About Ends-------*/
+
+
+
+
+
+/*-----Contact Starts-------*/
+
+.contact {
+
+                background-color: rgba(204, 204, 204, 0.15);
+
+                padding: 50px 0px;
+
+                float: left;
+
+                width: 100%;
+
+}
+
+.contact h3 {
+
+                margin-top: 0px;
+
+                margin-bottom: 50px;
+
+                border-bottom: 2px solid #EB233C;
+
+                display: inline-block;
+
+                line-height: 35px;
+
+}
+
+.policy {
+
+                padding: 50px 0px;
+
+                width: 100%;
+
+                float: left;
+
+                text-align: center;
+
+}
+
+.policy h3 {
+
+                margin-top: 0px;
+
+                margin-bottom: 50px;
+
+                border-bottom: 2px solid #EB233C;
+
+                display: inline-block;
+
+                line-height: 35px;
+
+}
+
+.policy-text p {
+
+                font-size: 15px;
+
+                font-weight: 300;
+
+}
